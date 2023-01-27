@@ -3,7 +3,7 @@ Unit testing for translation functions
 '''
 
 import unittest
-from translator.py import english_to_french, french_to_english
+from translator import english_to_french, french_to_english
 
 class TestTranslator(unittest.TestCase):
     '''
